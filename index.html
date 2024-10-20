@@ -7,38 +7,44 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter name of dish you want a recipe for..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </main>
-    <div>
-      Recipe goes here:<br />
-      Recipe for mashed potatoes
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter name of dish you want a recipe for..."
+            autofocus
+            required
+            autocomplete="off"
+            class="food"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </main>
+      <div class="recipe">
+        Recipe goes here:<br />
+        Recipe for mashed potatoes
+      </div>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/not-zendaya" target="_blank"
+          ><em>Melanie</em></a
+        >
+        and open-sourced on
+        <a
+          href="https://github.com/not-zendaya/Recipe-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted by
+        <a href="https://melanie-recipe-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/not-zendaya" target="_blank"
-        ><em>Melanie</em></a
-      >, open-sourced on
-      <a href="https://github.com/not-zendaya/Recipe-generator" target="_blank"
-        >Github</a
-      >
-      and hosted by
-      <a href="https://melanie-recipe-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>
