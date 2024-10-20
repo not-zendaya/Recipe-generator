@@ -15,20 +15,23 @@
         <h1>AI Recipe Generator</h1>
       </header>
       <main>
-        <form id="recipe-form-generator">
-          <input
-            type="text"
-            placeholder="Enter name of dish you want a recipe for..."
-            autofocus
-            required
-            autocomplete="off"
-            class="food"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form=container">
+          <form id="recipe-form-generator">
+            <input
+              type="text"
+              placeholder="Enter name of dish you want a recipe for..."
+              autofocus
+              required
+              autocomplete="off"
+              class="food"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e Rice, Pizza, Chicken...</div>
+        </div>
       </main>
-      <div class="recipe" id="recipe"></div>
+      <div class="recipe hidden" id="recipe"></div>
       <footer>
         This project was coded by
         <a href="https://github.com/not-zendaya" target="_blank"
